@@ -54,8 +54,6 @@ img {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -63,6 +61,7 @@ img {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-nav {
@@ -237,8 +236,6 @@ img {
 .features-icon {
   display: flex;
   height: 112px;
-  width: 254px;
-  padding: 24px 100px;
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px solid #8e8f99;
@@ -276,13 +273,10 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  max-width: 162px;
-  margin: 0 auto;
   margin-bottom: 72px;
 }
 
 .team-list {
-  background-color: #ffffff;
   display: flex;
   gap: 24px;
 }
@@ -362,8 +356,6 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  max-width: 218px;
-  margin: 0 auto;
   margin-bottom: 72px;
 }
 
